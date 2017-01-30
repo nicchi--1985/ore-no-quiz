@@ -6,7 +6,7 @@
 set :stage, :development
 set :branch, 'development'
 
-role :app, %w{nicchi@160.16.232.12}
+role :app, %w{nicchi@160.16.232.12:50022}
 role :web, %w{nicchi@160.16.232.12}
 role :db, %w{nicchi@160.16.232.12}
 
