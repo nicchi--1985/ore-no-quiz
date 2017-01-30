@@ -19,5 +19,3 @@ vendor/bundle
 
 config/database.yml
 config/secrets.yml
-
-Gemfile.lock
