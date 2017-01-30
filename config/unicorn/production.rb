@@ -3,7 +3,7 @@ worker_processes Integer(ENV["WEB_CONCURRENCY"] || 3)
 timeout 15
 preload_app true # 更新時ダウンタイム無し
 
-app_path = '/var/www/nginx/capistrano_sample'
+app_path = '/var/www/nginx/ore-no-quiz'
 app_shared_path = "#{app_path}/shared"
 working_directory "#{app_path}/current/"
 
