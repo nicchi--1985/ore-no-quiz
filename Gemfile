@@ -49,3 +49,7 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano3-unicorn'
 end
+
+group :test do
+  gem 'simplecov', :require => false
+end
