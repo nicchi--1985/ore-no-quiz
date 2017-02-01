@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root to: 'quizzes#index'
+  get 'quizzes/show/:id' => 'quizzes#show'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
